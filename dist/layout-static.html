@@ -8,7 +8,7 @@
         <meta name="author" content="" />
         <title>Static Navigation - SB Admin</title>
         <link href="css/styles.css" rel="stylesheet" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>-->
     </head>
     <body>
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -47,11 +47,11 @@
                             <div class="sb-sidenav-menu-heading">Interface</div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts"
                                 ><div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Layouts
+                                Log-in
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div
                             ></a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav"><a class="nav-link" href="layout-static.html">Static Navigation</a><a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a></nav>
+                                <nav class="sb-sidenav-menu-nested nav"><a class="nav-link" href="layout-static.html">Transporte y logística</a><a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a></nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages"
                                 ><div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
@@ -94,8 +94,64 @@
             </div>
             <div id="layoutSidenav_content">
                 <main>
-                   
+                    
+                 <div id="login">
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="" method="post">
+                            <h3 class="text-center text-info">Log-in</h3>
+                            
+                            <div class="form-group">
+                                <label for="logo" class="text-info">Logotipo de empresa:</label><br>
+                                <input type="file" name="logo" id="logo" class="form-control">
+                            </div>
+                           
+                            <div class="form-group">
+                                <label for="Nombre" class="text-info">Nombre de la empresa:</label><br>
+                                <input type="text" name="Nombre" id="Nombre" class="form-control" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone" class="text-info">Telefono:</label><br>
+                                <input type="tel" name="phone" id="phone" class="form-control" pattern="[0-9]{9}" required="">
+                            </div>
+
+                             <div class="form-group">
+                                <label for="page" class="text-info">Pagina web:</label><br>
+                                <input type="text" name="page" id="page" class="form-control" required="">
+                            </div>
+
+                             <div class="form-group">
+                                <label for="ubica" class="text-info">Ubicación:</label><br>
+                                <input type="text" name="ubica" id="ubica" class="form-control" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ubica" class="text-info">Listas de servicio:</label><br>
+                                <input type="text" name="ubica" id="ubica" class="form-control" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ubica" class="text-info">Whatsapp business:</label><br>
+                                <input type="text" name="ubica" id="ubica" class="form-control" required="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Enviar">
+                            </div>
+                            
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
                 </main>
+
+                 
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
