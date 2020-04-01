@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Page Title - SB Admin</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bg-primary">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div id="maquinaria">
+                    <div class="container">
+                    <div id="maquinaria-row" class="row justify-content-center align-items-center">
+                    <div id="maquinaria-column" class="col-md-6">
+                    <div id="maquinaria-box" class="col-md-12">
+                <form>
+                    <h3 class="text-center text-info">Maquinaria y equipo</h3>
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputMarca">Marca:</label>
+                      <select id="marca" style="width: 150px">
+                          <option value="volvo">Volvo</option>
+                          <option value="saab">Saab</option>
+                          <option value="vw">VW</option>
+                          <option value="" selected></option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputModelo">Modelo:</label>
+                        <select id="modelo" style="width: 150px">
+                          <option value="Sedan">Sedan</option>
+                          <option value="Hatchback">Hatchback</option>
+                          <option value="SUV">SUV</option>
+                          <option value="Crossover" selected>Crossover</option>
+                          <option value="" selected></option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputYear">Año:</label>
+                      <input type="year" class="form-control" id="inputYear" placeholder="Ej. 1999" pattern="[0-4]{4}" required="">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPrecio">Precio:</label>
+                      <input type="precio" class="form-control" id="inputPrecio" placeholder="Ej. 1,230" pattern="[0-9]{9}" required="">
+                    </div>
+                    </div> 
+                     <div class="form-group col-md-6">  
+                     <label for="inputImage" class=" col-form-label">Imagen:</label>                 
+                    <input name="image[]" id="image" type="file"  multiple="multiple" accept="image/jpg, image/jpeg" >
+                </div>
+                    <div class="form-group col-md-6">
+                       <label for="inputCaracter" class=" col-form-label">Características:</label>
+                        <input type="Caracter"  style="height: 150px; width: 500px" class="form-control" id="Caracter">
+                    </div>
+                        <div class="form-group">
+                            <div style="text-align: center;">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Enviar">
+                            </div>
+                    </form>
+                </main>
+            </div>
+            <div id="layoutAuthentication_footer">
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2019</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
