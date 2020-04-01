@@ -10216,7 +10216,7 @@ body {
 #login .container #login-row #login-column #login-box {
   margin-top: 20px;
   max-width: 600px;
-  height: 750px;
+  height: 510px;
   border: 1px solid #9C9C9C;
   background-color: #EAEAEA;
 }
@@ -10226,3 +10226,61 @@ body {
 #login .container #login-row #login-column #login-box #login-form #register-link {
   margin-top: -85px;
 }
+
+
+#servicios .container #servicios-row #servicios-column #servicios-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 400px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#servicios .container #servicios-row #servicios-column #servicios-box #servicios-form {
+  padding: 20px;
+}
+#servicios .container #servicios-row #servicios-column #servicios-box #servicios-form #register-link {
+  margin-top: -85px;
+}
+
+#maquinaria .container #maquinaria-row #maquinaria-column #maquinaria-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 510px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#maquinaria .container #maquinaria-row #maquinaria-column #maquinaria-box #maquinaria-form {
+  padding: 20px;
+}
+#maquinaria .container #maquinaria-row #maquinaria-column #maquinaria-box #maquinaria-form #register-link {
+  margin-top: -85px;
+}
+
+#contacto .container #contacto-row #contacto-column #contacto-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 300px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#contacto .container #contacto-row #contacto-column #contacto-box #contacto-form {
+  padding: 20px;
+}
+#contacto .container #contacto-row #contacto-column #contacto-box #contacto-form #register-link {
+  margin-top: -85px;
+}
+
+#sergeneral .container #sergeneral-row #sergeneral-column #sergeneral-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 530px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#sergeneral .container #sergeneral-row #sergeneral-column #sergeneral-box #sergeneral-form {
+  padding: 20px;
+}
+#sergeneral .container #sergeneral-row #sergeneral-column #sergeneral-box #sergeneral-form #register-link {
+  margin-top: -85px;
+}
+
