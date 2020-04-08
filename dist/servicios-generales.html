@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,10 @@
         <meta name="author" content="" />
         <title>Page Title - SB Admin</title>
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/agregar-producto.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+        <script src="/dist/js/agregar-producto.js"></script>
+
     </head>
     <body class="bg-primary">
         <div id="layoutAuthentication">
@@ -23,38 +26,35 @@
                         <h3 class="text-center text-info">Log-in de empresa de servicios generales</h3>
                         <div class="form-group">
                                 
-                                <div class="form-row">
-
+                            <div class="form-row">
                                 <label for="logo" class="text-info">Foto:</label><br>
                                 <input type="file" name="logo" id="logo" accept="image/png, .jpeg, .jpg, image/gif" class="form-control" required="">
-                                   
-                                <div class="form-group col-md-6">
-                                <label for="Nombre" class="text-info">Nombre del producto:</label><br>
-                                <input type="text" name="Nombre" id="Nombre" class="form-control" placeholder="" required="">
-                                </div>
+                                <br>  
+                            
+                            <div class="form-group col-md-12">
+                                <br>
+                                <label for="nom" class="text-info">Nombre del producto o servicio:</label>
+                                <input type="text" name="Nombre" id="nom" class="form-control" type="text" placeholder="" required="">
+                            </div>
 
-                                <div class="form-group col-md-6">
-                                <label for="page" class="text-info">Página web:</label><br>
+                            <div class="form-group col-md-6">
+                                <label for="page" class="text-info">Página web:</label>
                                 <input type="text" name="page" id="page" class="form-control" placeholder="" required="">
-                                </div>
-                                </div>
-
-                                <div class="form-row">
-                                <div class="form-group col-md-6">
-                                <label for="ubica" class="text-info">Ubicación:</label><br>
-                                <input type="text" name="ubica" id="ubica" class="form-control" placeholder="" required="">
-                                </div>
                                 
-                                <div class="form-group col-md-6">
                                 <label for="inputPrecio" class="text-info">Precio:</label>
-                                <input type="precio" class="form-control" id="inputPrecio" placeholder="$ " pattern="[0-9]{9}" required="">
-                                </div>
-                                </div>
+                                <input type="precio" class="form-control" id="inputPrecio" placeholder="$ " pattern="[0-6]{6}" required="" >
+                            </div>
+                        
+                            <div class="form-group col-md-12">
+                                <label for="ubica" class="text-info">Ubicación:</label>
+                                <input type="text" name="ubica" id="ubica" class="form-control" type="text" placeholder="" required="">
+                            </div>
 
-                                <div class="form-group col-md-6">
-                                <label for="descrip" class="text-info">Descripción:</label><br>
-                                <input type="text"  name="descrip" id="descrip" style="height: 150px; width: 500px" class="form-control" required=""> 
-                                </div>
+                            <div class="form-group col-md-12">
+                                    <label for="descrip" class="text-info">Descripción:</label>
+                                    <input type="text"  name="descrip" id="descrip" style="height: 100px; width: 500px" class="form-control" required=""> 
+                            </div>
+                                
                                 <div class="form-group">
                                 <div style="text-align: center;">
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Enviar">
