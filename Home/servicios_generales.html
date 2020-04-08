@@ -83,10 +83,8 @@
                                 ><div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                                 Charts</a
                             >
-                            <a class="nav-link" href="/dist/servicios-generales.html"
-                            ><div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                            Servicios Generales login </a
-                        >
+                            <a class="nav-link" href="/Home/servicios_generales.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>Registro de servicios generales </a>
                             
                             <a class="nav-link" href="tables.html"
                                 ><div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
@@ -109,7 +107,7 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" action="" method="post">
-                            <h3 class="text-center text-info">Registro de empresas</h3>
+                            <h3 class="text-center text-info">Registro de servicio general</h3>
                             
                             <div class="form-group">
                                 <label for="logo" class="text-info">Logotipo de la empresa:</label><br>
@@ -120,31 +118,27 @@
                                 <label for="Nombre" class="text-info">Nombre de la empresa:</label><br>
                                 <input type="text" name="Nombre" id="Nombre" class="form-control" required="">
                             </div>
+                            <div class="form-group col-md-6">
+                                <label for="descrip" class="text-info">Descripción:</label><br>
+                                <input type="text"  name="descrip" id="descrip" style="height: 150px; width: 500px" class="form-control" required=""> 
+                                </div>
 
-                            <div class="form-group">
-                                <label for="phone" class="text-info">Teléfono:</label><br>
-                                <input type="tel" name="phone" id="phone" class="form-control" placeholder="Ej. 5556907810" pattern="[0-9]{9}" required="">
-                            </div>
+                                <div class="form-group">
+                                    <label for="ubica" class="text-info">Ubicación:</label><br>
+                                    <input type="text" name="ubica" id="ubica" class="form-control" required="">
+                                </div>
+
 
                              <div class="form-group">
                                 <label for="page" class="text-info">Página web:</label><br>
                                 <input type="text" name="page" id="page" class="form-control" required="">
                             </div>
 
-                             <div class="form-group">
-                                <label for="ubica" class="text-info">Ubicación:</label><br>
-                                <input type="text" name="ubica" id="ubica" class="form-control" required="">
-                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPrecio" class="text-info">Precio:</label>
+                                <input type="precio" class="form-control" id="inputPrecio" placeholder="Ej. 1,230" pattern="[0-9]{9}" required="">
+                                </div>    
 
-                            <div class="form-group">
-                                <label for="ubica" class="text-info">Listas de servicio:</label><br>
-                                <input type="text" name="ubica" id="ubica" class="form-control" required="">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="ubica" class="text-info">Whatsapp business:</label><br>
-                                <input type="text" name="ubica" id="ubica" class="form-control" placeholder="Ej. +  5556907810" required="">
-                            </div>
 
                             <div class="form-group">
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Enviar">
