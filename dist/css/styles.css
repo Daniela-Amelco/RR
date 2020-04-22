@@ -467,7 +467,7 @@ mark,
 
 .blockquote-footer {
   display: block;
-  font-size: 80%;
+  font-size: 0%;
   color: #6c757d;
 }
 .blockquote-footer::before {
@@ -10272,7 +10272,7 @@ body {
 
 #sergeneral .container #sergeneral-row #sergeneral-column #sergeneral-box {
   margin-top: 40px;
-  max-width: 600px;
+  max-width: 800px;
   height: 530px;
   border: 1px solid #9C9C9C;
   background-color: #EAEAEA;
